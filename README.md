@@ -1,5 +1,5 @@
 # Instalacion--ArchLinux
-Pasos a seguir para instalar ArchLinux en la maquina virtual VirtualBox
+Esta guía te proporcionará instrucciones paso a paso para instalar ArchLinux, una distribución Linux ligera y altamente personalizable. Si eres nuevo en el mundo de ArchLinux, no te preocupes, esta guía está diseñada para ser lo más entendible y amigable posible.
 
 # Requisitos Previos
 
@@ -41,5 +41,13 @@ Ahora configuraremos la conexion de internet a tu maquina virtual llendo a la co
 
 # Instalacion de Archlinux 
 
-Una vez todo ya una vez configurado inicia tu Maquina virtual y te iniciara la Iso de Archlinux 
+Una vez todo ya una vez configurado inicia tu Maquina virtual y te iniciara la Iso de Archlinux te saldra la siguiente imagen
+
+[![v6.png](https://i.postimg.cc/C16QsxT1/v6.png)](https://postimg.cc/47VPJZ3k)
+
+
+ahora seleccionas: ArchLinux install medium (x86_64 BIOS) y te mandara a la terminal de ArchLinux.
+
+una vez que haya cargado toda la terminal de ArchLinux te saldra en pantalla "root@archiso ~ #"
+
 
