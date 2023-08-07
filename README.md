@@ -21,7 +21,7 @@ Para montar la ISO de ArchLinux a La maquina virtual VirtualBox haz los siguient
 
 - Monta la ISO de ArchLinux a tu maquina virtual.
 
-#  Configura La conexion de internet a tu maquina virtual
+##  Configura La conexion de internet a tu maquina virtual
 
 Ahora configuraremos la conexion de internet a tu maquina virtual llendo a la configuracion de tu Maquina Virtual buscas la opcion de red, de forma predeterminada estara en el adapator 1, Haz click en (Hablitar Adaptador de Red) y cambias la opcion de NAT a Adaptador de Fuente. Lo que sucede al cambiar esta configuracion  es que va a utilizar la conexion de internet de tu sistema operativo para poder utilizarla en tu maquina virtual.
 
