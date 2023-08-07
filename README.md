@@ -48,6 +48,6 @@ Una vez todo ya una vez configurado inicia tu Maquina virtual y te iniciara la I
 
 ahora seleccionas: ArchLinux install medium (x86_64 BIOS) y te mandara a la terminal de ArchLinux.
 
-una vez que haya cargado toda la terminal de ArchLinux te saldra en pantalla "root@archiso ~ #"
+una vez que haya cargado toda la terminal de ArchLinux te saldra en pantalla **root@archiso ~ #**
 
 
