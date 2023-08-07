@@ -17,5 +17,5 @@ Para montar la ISO de ArchLinux a La maquina virtual VirtualBox haz los siguient
 
 -Asignale un nombre a tu Maquina Virtual 
 
-![image](https://github.com/saezjose/Instalacion--ArchLinux/assets/134319766/91e75c30-1d1f-430b-9104-795e5bd0e722)
+[![v1.png](https://i.postimg.cc/ZnF5yp3p/v1.png)](https://postimg.cc/8fcS2FZz)
 
