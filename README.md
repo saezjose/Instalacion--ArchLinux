@@ -52,13 +52,14 @@ una vez que haya cargado toda la terminal de ArchLinux te saldra en pantalla **r
 
 - Lo primero que haremos es configurar la distribucion del teclado, comunmente este estara en la distribucion del teclado en ingles si queremos colocarlo en nuestra distribucion de teclado en español latino colocamos la siguiente linea de comando:
 
-`loadkeys la-latin1`
+- `loadkeys la-latin1`
 
 - Ahora Verificamos si tenemos internet coloca la siguiente linea de comando:
 
-- `ping -c 4 google.com ` 
+- `ping -c 4 google.com `
 
-Para instalar las dependencias, ejecuta el comando [`install`.
+- esto lo que hara es establecer una conexion con google para enviar paquetes de datos a la direccion de google.com con tal de verificar la conectividad con el servidor de google
 
+## Particion de discos.
 
 
