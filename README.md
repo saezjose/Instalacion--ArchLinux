@@ -96,8 +96,19 @@ nos preguntaran el numero de particion del disco en este caso ahora mismo no hay
 
 -  ` +10G`
 
--  listo la primera particion creada
+Listo la primera particion creada. Ahora haremos particion 2 y 3 en esta particiones debemos crearla en una particion extendida
 
--  Ahora haremos particion 2 y 3 en esta particiones debemos crearla en una particion extendida
+-  escribe "n" nuevamente en la terminal
 
--  a
+-  escribe "e" para crear una nueva particion extendida
+
+-  escribes "2" para el numero de la particion del disco en este caso en el numero dos
+
+-  presionas "Enter"
+
+-  presionas "Enter" esto se hace para usar el espacio restante para la seguna particion.
+
+ahora estan creadas 2 particiones una primaria que es de tipo **"Linux"** y una particion Extendida que es tipo **"Extended"**
+
+
+ 
