@@ -48,9 +48,14 @@ Una vez todo ya una vez configurado inicia tu Maquina virtual y te iniciara la I
 
 ahora seleccionas: ArchLinux install medium (x86_64 BIOS) y te mandara a la terminal de ArchLinux.
 
-una vez que haya cargado toda la terminal de ArchLinux te saldra en pantalla **root@archiso ~ #**
+una vez que haya cargado toda la terminal de ArchLinux te saldra en pantalla **root@archiso ~ #** lo que significa que estamos en la terminal de instalacion de ArchLinux.
 
-Para instalar las dependencias, ejecuta el comando ```npm install```.
+- Lo primero que haremos es configurar la distribucion del teclado, comunmente este estara en la distribucion del teclado en ingles si queremos colocarlo en nuestra distribucion de teclado en español latino colocamos la siguiente linea de comando:
+
+`loadkeys la-latin1`
+
+
+Para instalar las dependencias, ejecuta el comando `npm install`.
 
 
 
