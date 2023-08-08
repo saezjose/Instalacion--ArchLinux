@@ -143,3 +143,12 @@ veremos que tenemos creadas las 3 particiones y ademas una de ellas extendida, l
  /dev/sda5     20975616   37752831  16777216    8G  83  Linux
  /dev/sda6     37754880   41943039  4188160     2G  83  Linux
 ```
+
+como dije anterior mente la particion dev/sda6 para el espacio de intercambio y esta en en Tipo Linux  lo que haremos es cambiar el tipo de particion de **"Linux"** a **"Swap"**
+
+- escribes `t` para cambiar el tipo de particion
+
+- nos preguntara cual de las particiones queremos cambiar nos saldra algo como esto
+
+  ``` Partition number (1,2,5,6 default 6): ```
+ 
