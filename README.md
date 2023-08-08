@@ -87,3 +87,15 @@ ahora para hacer la particion se introduce este comando:
 -  nos preguntara si la particion sera primaria o extendida, para la particion del sistema tiene que ser primaria para que pueda bootear
 
 -  para este caso se presiona la letra "p"
+
+nos preguntaran el numero de particion del disco en este caso ahora mismo no hay ninguna particion del disco creada entonces simplemente colocamos "1" 
+
+- ahora nos preguntan donde empieza la particion del disco en este paso simplemente presionamos "Enter"  siempre que nos pregunten el primer sector se deja en blanco.
+
+- el ultimo sector va ser el tamaño que va tener la primera particion en este caso le estableceremos 10gb entonces colocas en la terminal:
+
+-  ` +10G`
+
+-  listo la primera particion creada
+
+-  Ahora haremos particion 2 y 3 en esta particiones debemos crearla en una particion extendida
