@@ -54,8 +54,11 @@ una vez que haya cargado toda la terminal de ArchLinux te saldra en pantalla **r
 
 `loadkeys la-latin1`
 
+- Ahora Verificamos si tenemos internet coloca la siguiente linea de comando:
 
-Para instalar las dependencias, ejecuta el comando `npm install`.
+- `ping -c 4 google.com ` 
+
+Para instalar las dependencias, ejecuta el comando [`install`.
 
 
 
