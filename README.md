@@ -134,4 +134,10 @@ Ahora nos faltaria crear la ultima particion que es el de intercambio
 
  - presionamos la letra `"p"`
 
-veremos que tenemos creadas las 3 particiones y ademas una de ellas extendida
+veremos que tenemos creadas las 3 particiones y ademas una de ellas extendida, la particion root y una particion extendida dentro de esta particion extendida esta **"/dev/sda5"** que seria para los datos y **"/dev/sda6"** ´para el espacio de intercambio se veria algo asi
+
+`Device   Boot   Start        End   Sectors  Size  Id  Type
+/dev/sda1         2048   20973567  20971520   10G  83  Linux
+/dev/sda2     20973568   41943039  20969472   10G   5  Extended
+/dev/sda5     20975616   37752831  16777216    8G  83  Linux
+/dev/sda6     37754880   41943039  4188160     2G  83  Linux`
