@@ -50,9 +50,13 @@ ahora seleccionas: ArchLinux install medium (x86_64 BIOS) y te mandara a la term
 
 una vez que haya cargado toda la terminal de ArchLinux te saldra en pantalla **root@archiso ~ #** lo que significa que estamos en la terminal de instalacion de ArchLinux.
 
+## Configuracion de distribucion de teclado
+
 - Lo primero que haremos es configurar la distribucion del teclado, comunmente este estara en la distribucion del teclado en ingles si queremos colocarlo en nuestra distribucion de teclado en español latino colocamos la siguiente linea de comando:
 
 - `loadkeys la-latin1`
+
+## conexion a internet 
 
 - Ahora Verificamos si tenemos internet coloca la siguiente linea de comando:
 
@@ -61,5 +65,9 @@ una vez que haya cargado toda la terminal de ArchLinux te saldra en pantalla **r
 - esto lo que hara es establecer una conexion con google para enviar paquetes de datos a la direccion de google.com con tal de verificar la conectividad con el servidor de google
 
 ## Particion de discos.
-a
 
+ahora veremos los discos disponibles desde la maquina virtual usando el siguiente comando:
+
+ `fdisk -l `
+
+ importante! el Disco que vamos a utilizar comunmente se conoce como "/dev/sda"
