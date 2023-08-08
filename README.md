@@ -61,5 +61,5 @@ una vez que haya cargado toda la terminal de ArchLinux te saldra en pantalla **r
 - esto lo que hara es establecer una conexion con google para enviar paquetes de datos a la direccion de google.com con tal de verificar la conectividad con el servidor de google
 
 ## Particion de discos.
-
+a
 
