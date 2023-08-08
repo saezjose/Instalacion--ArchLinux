@@ -68,6 +68,22 @@ una vez que haya cargado toda la terminal de ArchLinux te saldra en pantalla **r
 
 ahora veremos los discos disponibles desde la maquina virtual usando el siguiente comando:
 
- `fdisk -l `
+ - `fdisk -l `
 
  importante! el Disco que vamos a utilizar comunmente se conoce como "/dev/sda"
+
+ Ahora particionaremos el disco en este caso haremos 3 particiones en el disco haremos la primerta particion root que es para el sistema la segunda particion para los datos personnales que esta montada en Home y la tercera para el espacio de intercambio
+
+ahora para hacer la particion se introduce este comando:
+
+-  `fdisk  /dev/sda`
+
+-  presiona la letra "p" para mostrar las particiones del disco
+
+-  ahora crearemos una tabla de particiones presionando la letra "o"
+
+-  ahora para crear una particion presiona la letra n
+
+-  nos preguntara si la particion sera primaria o extendida, para la particion del sistema tiene que ser primaria para que pueda bootear
+
+-  para este caso se presiona la letra "p"
