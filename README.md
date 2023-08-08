@@ -120,3 +120,18 @@ Ahora crearemos la 3 particion entonces haremos lo siguiente
 
 - Ahora para el segundo sector utilizaremos 8gb entonces colocamos en la terminal:
 `+8G`
+
+Ahora nos faltaria crear la ultima particion que es el de intercambio 
+
+-  presionamos `"n"`
+
+-  dejamos el primer sector en blanco presionando **"Enter"**
+
+-  y para el segundo sector tambien se deja en blanco presionando **"Enter"** para utilizar lo que queda de esa particion
+
+
+ Ahora verificaremos si nuestras particiones estan creadas 
+
+ - presionamos la letra `"p"`
+
+veremos que tenemos creadas las 3 particiones y ademas una de ellas extendida
