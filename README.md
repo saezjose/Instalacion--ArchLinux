@@ -200,3 +200,36 @@ Ahora nos queda una cosa hay que la primera particion sea booteable entonces par
 
   ## Configuracion de Swap
 
+  La particion de intercambio el Swap ahora mismo no funcion hay que hacer que funcione
+
+ - para ello escribiremos:
+
+   `mkswap /dev/sda6`
+
+- ahora hay que "encender" el swap escribiremos:
+
+` swapon`
+
+ahora tenemos listo swap para que funcione correctamente.
+
+
+## Formatear las particiones.
+
+Ahora formatearemos las particiones la particion del sistema y la particion de datos personales
+
+- escribiremos:
+  `mkfs.ext4 /dev/sda1`
+
+- y escribiremos
+  `mkds.ext4 /dev/sda5`
+
+- escribimos que si o `"y"`
+
+ahora tendremos formateadas las Particiones
+
+## Montar Particiones
+
+
+
+ 
+
