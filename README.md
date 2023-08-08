@@ -150,7 +150,9 @@ como dije anterior mente la particion dev/sda6 para el espacio de intercambio y 
 
 - nos preguntara cual de las particiones queremos cambiar nos saldra algo como esto
 
-  ``` Partition number (1,2,5,6 default 6): ```
+  ```
+   Partition number (1,2,5,6 default 6):
+  ```
 
 - escribimos `"6"`
 
@@ -159,3 +161,42 @@ como dije anterior mente la particion dev/sda6 para el espacio de intercambio y 
 - el que buscamos es el Swap es el numero **"82"**
 
 - entonces escribimos `"82"` para hacer el cambio
+
+Ahora verificamos si se hizo el cambio correctamente
+
+- escribimos `"p"` para mostrar las particiones
+
+- y deberia de verse asi:
+
+```
+  Device   Boot   Start        End   Sectors  Size  Id  Type
+ /dev/sda1         2048   20973567  20971520   10G  83  Linux
+ /dev/sda2     20973568   41943039  20969472   10G   5  Extended
+ /dev/sda5     20975616   37752831  16777216    8G  83  Linux
+ /dev/sda6     37754880   41943039  4188160     2G  83  Linux swap/ Solaris
+```
+
+como vemos a continuacion es que en la particion /dev/sda6 se cambio de tipo **"Linux"** a **"Swap"**
+
+Ahora nos queda una cosa hay que la primera particion sea booteable entonces para hacer esto  escribimos la letra `"a"`
+
+- nos pide que particion sera la booteable en este caso sera la primera entonces escribimos `"1"`
+
+- ahora si presionamos `"p"` veremos lo siguiente:
+
+```
+  Device   Boot   Start        End   Sectors  Size  Id  Type
+ /dev/sda1 *       2048   20973567  20971520   10G  83  Linux
+ /dev/sda2     20973568   41943039  20969472   10G   5  Extended
+ /dev/sda5     20975616   37752831  16777216    8G  83  Linux
+ /dev/sda6     37754880   41943039  4188160     2G  83  Linux swap/ Solaris
+```
+
+  vemos que la primera particion tiene un **" * "** lo que significa que esa particion va ser la booteable
+
+  una vez hecho todo simplemente escribimos `"w"`
+
+  una vez escribido la letra "w" significa que ya esta todo escrito.
+
+  ## Configuracion de Swap
+
