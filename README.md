@@ -50,7 +50,7 @@ ahora seleccionas: ArchLinux install medium (x86_64 BIOS) y te mandara a la term
 
 una vez que haya cargado toda la terminal de ArchLinux te saldra en pantalla **root@archiso ~ #**
 
-Para instalar las dependencias, ejecuta el comando `npm install`.
+Para instalar las dependencias, ejecuta el comando ```npm install```.
 
 
 
