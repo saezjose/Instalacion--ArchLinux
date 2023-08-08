@@ -99,3 +99,5 @@ nos preguntaran el numero de particion del disco en este caso ahora mismo no hay
 -  listo la primera particion creada
 
 -  Ahora haremos particion 2 y 3 en esta particiones debemos crearla en una particion extendida
+
+-  a
