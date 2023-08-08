@@ -1,4 +1,4 @@
-# Instalacion--ArchLinux desde una Maquina Virtual
+# Instalacion--ArchLinux desde una Maquina Virtual BIOS
 Esta guía te proporcionará instrucciones paso a paso para instalar ArchLinux, una distribución Linux ligera y altamente personalizable. Si eres nuevo en el mundo de ArchLinux, no te preocupes, esta guía está diseñada para ser lo más entendible y amigable posible.
 
 # Requisitos Previos
